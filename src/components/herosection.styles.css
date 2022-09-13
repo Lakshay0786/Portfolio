@@ -183,7 +183,7 @@ h1 {
 
 @media only screen and (max-width: 600px) {
     .bg-top{
-        height: 700px;
+        height: 750px;
         background-image: none;
         /* background-image: url(/src/img/4JXK.gif); */
 
