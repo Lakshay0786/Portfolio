@@ -1,4 +1,5 @@
 import './herosection.styles.css'
+import classes from './button.module.css'
 import character from '../img/character.png'
 const Herosection = () => {
     return (
@@ -9,9 +10,12 @@ const Herosection = () => {
                         <img className='main-img' src={character} alt="BigCo Inc. logo" />
                     </div>
                     <div className="textbox">
-                        <h1>Hi! I Am <br></br> Lakshay Sharma</h1>
-                        <p className='title'>Designer   <span>&</span>  Developer</p>
-                        <p className='tagline'>lorem ksaks fkaskfas ksamfskafn shdgsahf asjsbasbhjbsfa dbhasnjf safnjsfnas sajfhjasf jsfjasfjfsa</p>
+                        <h1> <span className='headline-spam'> Hi! I Am </span><br></br> Lakshay Sharma</h1>
+                        <p className='title'>Designer   <span className='span-tagline'>&</span>  Developer</p>
+                        <p className='tagline'>I love to create beautiful and performant products with delightful user experiences</p>
+                        <button className={
+                            `btn ${classes.glow}`
+                        } type="button"> Contact me</button>
                     </div>
                 </div>
 
