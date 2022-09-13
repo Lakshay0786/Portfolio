@@ -8,12 +8,14 @@ import { Link } from "react-router-dom";
 
 const Skills = () => {
     return (
-        <>
+        <>  <div className="h1">
             <h1 className="skillh1">Skills & Experience.</h1>
+        </div>
+
             <div className='skillbox'>
 
                 <div className='skills'>
-                    <ul>
+                    <ul className="ul-list">
                         <li className='skilllist'>
                             <Link to="/" className='skilla'>
                                 <img
@@ -61,15 +63,7 @@ const Skills = () => {
                                 />
                             </Link>
                         </li>
-                        <li className='skilllist'>
-                            <Link to="/" className='skilla'>
-                                {/* <SiMongodb /> */}
-                                <img className="next"
-                                    src="https://res.cloudinary.com/drsm0ncyx/image/upload/v1660469022/languages/next-js-seeklogo.com_xzp1dj.svg"
-                                    alt=""
-                                />
-                            </Link>
-                        </li>
+
 
                         <li className='skilllist'>
                             <Link to="/" className='skilla'>
@@ -80,23 +74,17 @@ const Skills = () => {
                                 />
                             </Link>
                         </li>
-                        <li className="para">
-                        </li>
+
 
                     </ul>
 
                 </div>
                 <div className="Exp">
 
-                    <p>I bring together form and function to create something that looks good and performs brilliantly.
+                    <p className="skills-p">I bring together form and function to create something that looks good and performs brilliantly.
                     </p>
-                    <p>IoLogoJavascript sadnsakd sakjkasncasc jasbjabsj jbasjbjasb jscjabsjbsac jbjansj jsasac</p>
+                    <p className="skills-p">The main area of my expertise are front-end tools like like   <span>HTML, CSS, JavaScript, Tailwind CSS, React.js</span> . Next up I want to deep dive into  TypeScript, Next.js, Three.js & Backend development.</p>
 
-                    <p>IoLogoJavascript sadnsakd sakjkasncasc jasbjabsj jbasjbjasb jscjabsjbsac jbjansj jsasac</p>
-
-                    <p>IoLogoJavascript sadnsakd sakjkasncasc jasbjabsj jbasjbjasb jscjabsjsadasd sdsad asdsabsac jbjansj jsasac</p>
-
-                    <p>IoLogoJavascript sadnassd sakd sakjkasncasc jasbjabsj sddd asdasdas jbasjbjasb jscjabsjbsac jbjansj jsasac</p>
                 </div>
             </div>
         </>

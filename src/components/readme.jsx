@@ -14,8 +14,8 @@ const Readme = () => {
                 <p><span className='span-p'>Let's build cool things!
                 </span></p>
             </div>
-            <div className='readme-img'>
-                <img className='img-2' src={plane} alt="Readme-img" />
+            <div className='readme-img '>
+                <img className='img-2 ' src={plane} alt="Readme-img" />
             </div>
 
         </section>
